@@ -1,9 +1,15 @@
-node_modules/
+# Environments
+venv/
+venv_fix/
+mamacare-backend/venv_fix/
+mamacare-backend/venv/
+
+# Python
 __pycache__/
 *.pyc
 .env
-.DS_Store
+
+# Frontend
+node_modules/
 dist/
 build/
-coverage/
-venv_fix/
